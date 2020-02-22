@@ -1,5 +1,5 @@
 #  CAL
-## eLearning platform
+## Computer Assisted eLearning platform
 
 (c) Dmitry Ponyatov <<dponyatov@gmail.com>> 2020 All rights reserved
 

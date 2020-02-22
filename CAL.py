@@ -199,7 +199,7 @@ class Web(Net):
         @app.route('/logo.png')
         def logo(): return app.send_static_file('logo.png')
 
-        app.run(host=env['IP'].val,port=env['PORT'].val,debug=True)
+        app.run(host=env['IP'].val,port=env['PORT'].val,debug=True,extra_files=sys.argv[1])
 
 class Font(Web): pass
 class Color(Web): pass
